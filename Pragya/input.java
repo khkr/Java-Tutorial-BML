@@ -1,4 +1,5 @@
 import java.util.Scanner;
+<<<<<<< HEAD
 
 public class input
 {
@@ -40,4 +41,12 @@ else
 
 
 }
+=======
+public class Input{
+	public static void main(String[] args) {
+		Scanner s=new Scanner(System.in);
+		int n=s.nextInt();
+		System.out.println("The number is "+n);
+	}
+>>>>>>> dbfefd102cfc4ae5ce76486b1dd48dc00c14a304
 }
